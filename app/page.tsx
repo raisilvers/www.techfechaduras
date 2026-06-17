@@ -93,13 +93,13 @@ const styles: any = {
   content: { position: "relative", zIndex: 2, padding: 20 },
   logo: { width: 120, height: 120, objectFit: "contain", margin: "0 auto" },
   companyName: { fontSize: 28, fontWeight: 700, color: "#d4af37" },
-  slogan: { color: "#f5d98b", fontSize: 13 },
+  slogan: { color: "#f5d98b", fontSize: 15 },
   divider: { width: "80%", height: 1, background: "#d4af37", margin: "20px auto", opacity: 0.5 },
-  description: { color: "#e5e5e5", lineHeight: 1.1 },
+  description: { color: "#e5e5e5", lineHeight: 1.9 },
   buttonPrimary: { display: "block", background: "#d4af37", color: "#000", padding: 14, borderRadius: 14, marginBottom: 12, fontWeight: "bold" },
   buttonPromo: { display: "block", background: "#111", color: "#d4af37", padding: 14, borderRadius: 14, border: "1px solid #d4af37", marginBottom: 12 },
   buttonSecondary: { display: "block", color: "#d4af37", border: "1px solid #d4af37", padding: 14, borderRadius: 14, marginBottom: 20 },
   services: { textAlign: "left", marginTop: 20 },
-  seoSection: { marginTop: 30, textAlign: "left", maxWidth: 280 },
+  seoSection: { marginTop: 30, textAlign: "left", maxWidth: 800 },
   footer: { color: "#d4af37", marginTop: 25, fontWeight: "bold" }
 };
