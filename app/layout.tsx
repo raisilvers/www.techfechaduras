@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "🔒 Fechaduras Digitais em São Paulo | Tech Fechaduras",
     description:
-      "⭐ Prestador 5 estrelas na Leroy Merlin. Especialista em instalação de fechaduras digitais Intelbras, Yale, Papaiz e Elsys. Atendimento em toda São Paulo.",
+      "⭐ Prestador 5 estrelas na Leroy Merlin. Especialista em instalação de fechaduras digitais, Atendimento em toda São Paulo.",
     url: "https://techfechaduras.com.br",
     siteName: "Tech Fechaduras",
     images: [
