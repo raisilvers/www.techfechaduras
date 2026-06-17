@@ -26,9 +26,7 @@ export default function Home() {
           <h1 style={styles.companyName}>
             Instalação de Fechaduras Digitais em São Paulo | Tech Fechaduras
           </h1>
-
-          <h2>Atendimento em Toda São Paulo</h2>
-
+          
           <h2>Controle de Acesso e Biometria</h2>
           <p>
             Instalamos sistemas de controle de acesso, fechaduras biométricas,
