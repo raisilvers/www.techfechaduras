@@ -97,7 +97,7 @@ export default function Home() {
 }
 
 const styles: any = {
-  container: { height: "100vh", width: "100vw", display: "flex", justifyContent: "center", alignItems: "center", background: "#000", margin: 0 },
+  container: { minheight: "100vh", width: "100vw", display: "flex", justifyContent: "center", alignItems: "center", background: "#000", margin: 0 },
   card: { position: "relative", height: "100%", padding: 20, display: "flex", flexDirection: "column", justifyContent: "center", textAlign: "center", color: "#fff" },
   cardVideo: { position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0 },
   overlay: { position: "absolute", inset: 0, background: "rgba(0,0,0,0.78)", zIndex: 1 },
