@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import ShareButton from "@/components/ShareButton";
 
 export default function Home() {
@@ -15,12 +16,13 @@ export default function Home() {
 
         <div style={styles.content}>
 
+          {/*}
           <img
             src="/logo.png"
             alt="Tech Fechaduras Digitais"
             style={styles.logo}
           />
-
+          */}
           <h1 style={styles.companyName}>
             Instalação de Fechaduras Digitais em São Paulo | Tech Fechaduras
           </h1>
