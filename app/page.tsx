@@ -69,12 +69,10 @@ export default function Home() {
               Instalação de Fechaduras Digitais em São Paulo
             </h2>
 
-            <p style={styles.description}>
-              A Tech Fechaduras é especializada na instalação de fechaduras digitais em residências, apartamentos e empresas em São Paulo. <br /><br />
-              Trabalhamos com Intelbras, Yale, Papaiz e Elsys, com instalação profissional e suporte técnico. <br /><br />
-              Configuração de senhas, biometria, tags e integração com aplicativos. <br /><br />
-              Atendimento em toda São Paulo com rapidez e segurança.
-            </p>
+          <p style={styles.description}>
+            A Tech Fechaduras é especializada na instalação de fechaduras digitais em residências, apartamentos e empresas em São Paulo. Trabalhamos com Intelbras, Yale, Papaiz e Elsys, com instalação profissional e suporte técnico. Configuração de senhas, biometria, tags e integração com aplicativos. Atendimento em toda São Paulo com rapidez e segurança.
+          </p>
+          
           </section>
 
           <div style={styles.footer}>
