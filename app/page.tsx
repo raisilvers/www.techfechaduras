@@ -1,65 +1,128 @@
-import Image from "next/image";
+"use client";
+
+import ShareButton from "@/components/ShareButton";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <main style={styles.container}>
+      <div style={styles.card}>
+
+        <video autoPlay muted loop playsInline style={styles.cardVideo}>
+          <source src="/fundo.mp4" type="video/mp4" />
+        </video>
+
+        <div style={styles.overlay} />
+
+        <div style={styles.content}>
+
+          <img
+            src="/logo.png"
+            alt="Tech Fechaduras Digitais"
+            style={styles.logo}
+          />
+
+          <h1 style={styles.companyName}>
+            Tech Fechaduras
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+
+          <h2>
+            Instalação de Fechaduras Digitais em São Paulo
+          </h2>
+
+          <p style={styles.slogan}>
+            Tecnologia e Segurança ao Alcance das Suas Mãos
           </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
+
+          <div style={styles.divider} />
+
+          <p style={styles.description}>
+            Especialistas em fechaduras digitais, controle de acesso e soluções inteligentes para residências e empresas.
+          </p>
+
           <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://wa.me/5511962209588?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento."
             target="_blank"
             rel="noopener noreferrer"
+            style={styles.buttonPrimary}
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
+            🛠️ Solicitar Orçamento
           </a>
+
           <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://wa.me/5511962209588?text=Olá,%20vi%20o%20sorteio%20da%20Tech%20Fechaduras%20e%20quero%20participar."
             target="_blank"
             rel="noopener noreferrer"
+            style={styles.buttonPromo}
           >
-            Documentation
+            🎁 Participar do Sorteio
           </a>
+
+          <ShareButton />
+
+          <a
+            href="https://g.page/r/Cbw41K2JnAevEBM/review"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={styles.buttonSecondary}
+          >
+            ⭐ Avaliar Empresa no Google ⭐
+          </a>
+
+          <div style={styles.services}>
+            <p>✓ Instalação de Fechaduras Digitais</p>
+            <p>✓ Controle de Acesso</p>
+            <p>✓ Configuração e Suporte</p>
+            <p>✓ Atendimento Residencial e Comercial</p>
+            <p>✓ Garantia nos Serviços Executados</p>
+          </div>
+
+          <section style={styles.seoSection}>
+            <h2 style={{ color: "#d4af37" }}>
+              Instalação de Fechaduras Digitais em São Paulo
+            </h2>
+
+            <p>
+              A Tech Fechaduras é especializada na instalação de fechaduras digitais em residências, apartamentos e empresas em São Paulo.
+            </p>
+
+            <p>
+              Trabalhamos com Intelbras, Yale, Papaiz e Elsys, com instalação profissional e suporte técnico.
+            </p>
+
+            <p>
+              Configuração de senhas, biometria, tags e integração com aplicativos.
+            </p>
+
+            <p>
+              Atendimento em toda São Paulo com rapidez e segurança.
+            </p>
+          </section>
+
+          <div style={styles.footer}>
+            Protegendo o que é importante para você!
+          </div>
+
         </div>
-      </main>
-    </div>
+      </div>
+    </main>
   );
 }
+
+const styles: any = {
+  container: { height: "100vh", width: "100vw", display: "flex", justifyContent: "center", alignItems: "center", background: "#000", margin: 0 },
+  card: { position: "relative", height: "100%", padding: 20, display: "flex", flexDirection: "column", justifyContent: "center", textAlign: "center", color: "#fff" },
+  cardVideo: { position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0 },
+  overlay: { position: "absolute", inset: 0, background: "rgba(0,0,0,0.78)", zIndex: 1 },
+  content: { position: "relative", zIndex: 2, padding: 20 },
+  logo: { width: 120, height: 120, objectFit: "contain", margin: "0 auto" },
+  companyName: { fontSize: 28, fontWeight: 700, color: "#d4af37" },
+  slogan: { color: "#f5d98b", fontSize: 15 },
+  divider: { width: "80%", height: 1, background: "#d4af37", margin: "20px auto", opacity: 0.5 },
+  description: { color: "#e5e5e5", lineHeight: 1.6 },
+  buttonPrimary: { display: "block", background: "#d4af37", color: "#000", padding: 14, borderRadius: 14, marginBottom: 12, fontWeight: "bold" },
+  buttonPromo: { display: "block", background: "#111", color: "#d4af37", padding: 14, borderRadius: 14, border: "1px solid #d4af37", marginBottom: 12 },
+  buttonSecondary: { display: "block", color: "#d4af37", border: "1px solid #d4af37", padding: 14, borderRadius: 14, marginBottom: 20 },
+  services: { textAlign: "left", marginTop: 20 },
+  seoSection: { marginTop: 30, textAlign: "left", maxWidth: 800 },
+  footer: { color: "#d4af37", marginTop: 25, fontWeight: "bold" }
+};
