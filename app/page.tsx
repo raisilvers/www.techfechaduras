@@ -29,11 +29,6 @@ export default function Home() {
 
           <h2>Atendimento em Toda São Paulo</h2>
 
-          <p>
-            Instalamos sistemas de controle de acesso, fechaduras biométricas,
-            senhas digitais, tags e integração com aplicativos móveis.
-          </p>
-
           <h2>Controle de Acesso e Biometria</h2>
           <p>
             Instalamos sistemas de controle de acesso, fechaduras biométricas,
