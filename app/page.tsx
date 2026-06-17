@@ -33,6 +33,10 @@ export default function Home() {
           </p>
 
           <h2>Controle de Acesso e Biometria</h2>
+          <p>
+            Instalamos sistemas de controle de acesso, fechaduras biométricas,
+            senhas digitais, tags e integração com aplicativos móveis.
+          </p>
 
           <p style={styles.slogan}>
             Instalação e Configuração de Fechaduras Digitais com Garantia e Segurança.
