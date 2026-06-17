@@ -45,9 +45,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://wa.me/5511962209588?text=Olá,%20vi%20o%20sorteio%20da%20Tech%20Fechaduras%20e%20quero%20participar."
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/sorteio"
             style={styles.buttonPromo}
           >
             🎁 Participar do Sorteio
