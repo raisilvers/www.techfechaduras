@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import ShareButton from "@/components/ShareButton";
 
 export default function Home() {
@@ -16,17 +15,24 @@ export default function Home() {
 
         <div style={styles.content}>
 
-          {/*}
+          
           <img
             src="/logo.png"
             alt="Tech Fechaduras Digitais"
             style={styles.logo}
           />
-          */}
+          
           <h1 style={styles.companyName}>
             Instalação de Fechaduras Digitais em São Paulo | Tech Fechaduras
           </h1>
-          
+
+          <h2>Atendimento em Toda São Paulo</h2>
+
+          <p>
+            Instalamos sistemas de controle de acesso, fechaduras biométricas,
+            senhas digitais, tags e integração com aplicativos móveis.
+          </p>
+
           <h2>Controle de Acesso e Biometria</h2>
           <p>
             Instalamos sistemas de controle de acesso, fechaduras biométricas,
