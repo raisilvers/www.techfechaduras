@@ -22,7 +22,7 @@ export default function Home() {
           />
 
           <h1 style={styles.companyName}>
-            Tech Fechaduras
+            Instalação de Fechaduras Digitais em São Paulo | Tech Fechaduras
           </h1>
 
           <h2>
