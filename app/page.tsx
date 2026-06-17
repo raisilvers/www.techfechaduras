@@ -85,9 +85,9 @@ export default function Home() {
 }
 
 const styles: any = {
-  container: { minheight: "100vh", width: "100vw", display: "flex", justifyContent: "center", alignItems: "center", background: "#000", margin: 0 },
-  card: { position: "relative", height: "100%", padding: 20, display: "flex", flexDirection: "column", justifyContent: "center", textAlign: "center", color: "#fff" },
-  cardVideo: { position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0 },
+  container: { minHeight: "100vh", width: "100%", display: "flex", justifyContent: "center", alignItems: "center", background: "#000", margin: 0, padding: 0, overflow: "hidden" },
+  card: { position: "relative", width: "100%", minHeight: "100vh", overflow: "hidden", padding: 20, display: "flex", flexDirection: "column", justifyContent: "center", textAlign: "center", color: "#fff" },
+  cardVideo: { position: "fixed", top: 0, left: 0, width: "100vw", height: "100vh", objectFit: "cover", zIndex: 0 },
   overlay: { position: "absolute", inset: 0, background: "rgba(0,0,0,0.78)", zIndex: 1 },
   content: { position: "relative", zIndex: 2, padding: 20 },
   logo: { width: 120, height: 120, objectFit: "contain", margin: "0 auto" },
