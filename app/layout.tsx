@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "Tech Fechaduras",
     images: [
     {
-      url: "/opengraph-image.jpg",
+      url: "/opengraph-image-v2.jpg",
       width: 1200,
       height: 630,
       alt: "Instalação de Fechaduras Digitais em São Paulo",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    images: ["/opengraph-image.jpg"],
+    images: ["/opengraph-image-v2.jpg"],
   },
 };
 
