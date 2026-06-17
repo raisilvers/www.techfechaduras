@@ -26,7 +26,7 @@ export default function Home() {
           </h1>
 
           <h2>
-            Instalação de Fechaduras Digitais em São Paulo
+            Especialistas em Fechaduras Digitais Residenciais e Comerciais
           </h2>
 
           <p style={styles.slogan}>
