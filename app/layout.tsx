@@ -18,23 +18,20 @@ export const metadata: Metadata = {
     "Instalação de fechaduras digitais Intelbras, Yale, Papaiz e Elsys em São Paulo.",
 
   openGraph: {
-    title: "🔒 Tech Fechaduras | Instalação de Fechaduras Digitais em São Paulo",
-
-description:
-  "👉 Solicite seu orçamento! Instalação profissional de fechaduras digitais Intelbras, Yale, Papaiz e Elsys em São Paulo. Atendimento rápido, seguro e com garantia.",
+    title: "🔒 Fechaduras Digitais em São Paulo | Tech Fechaduras",
+    description:
+      "👉 Proteja sua casa ou empresa! Instalação profissional de fechaduras digitais Intelbras, Yale, Papaiz e Elsys. Orçamento rápido pelo WhatsApp.",
     url: "https://techfechaduras.com.br",
     siteName: "Tech Fechaduras",
     images: [
-      {
-        url: "/opengraph-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Tech Fechaduras",
-      },
-    ],
-    locale: "pt_BR",
-    type: "website",
-  },
+    {
+      url: "/opengraph-image.jpg",
+      width: 1200,
+      height: 630,
+      alt: "Instalação de Fechaduras Digitais em São Paulo",
+    },
+  ],
+},
 
   twitter: {
     card: "summary_large_image",
