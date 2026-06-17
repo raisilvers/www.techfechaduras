@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "🔒 Fechaduras Digitais em São Paulo | Tech Fechaduras",
     description:
-      "👉 Proteja sua casa ou empresa! Instalação profissional de fechaduras digitais Intelbras, Yale, Papaiz e Elsys. Orçamento rápido pelo WhatsApp.",
+      "⭐ Prestador 5 estrelas na Leroy Merlin. Especialista em instalação de fechaduras digitais Intelbras, Yale, Papaiz e Elsys. Atendimento em toda São Paulo.",
     url: "https://techfechaduras.com.br",
     siteName: "Tech Fechaduras",
     images: [
