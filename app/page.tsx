@@ -25,9 +25,14 @@ export default function Home() {
             Instalação de Fechaduras Digitais em São Paulo | Tech Fechaduras
           </h1>
 
-          <h2>
-            Especialistas em Fechaduras Digitais Residenciais e Comerciais
-          </h2>
+          <h2>Atendimento em Toda São Paulo</h2>
+
+          <p>
+            Instalamos sistemas de controle de acesso, fechaduras biométricas,
+            senhas digitais, tags e integração com aplicativos móveis.
+          </p>
+
+          <h2>Controle de Acesso e Biometria</h2>
 
           <p style={styles.slogan}>
             Instalação e Configuração de Fechaduras Digitais com Garantia e Segurança.
