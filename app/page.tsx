@@ -1,105 +1,106 @@
-<div style={styles.card}>
+"use client";
 
-  <img
-    src="/logo.png"
-    alt="Tech Fechaduras"
-    style={styles.logo}
-  />
+import ShareButton from "@/components/ShareButton";
 
-  <h1 style={styles.title}>
-    🎄 Sorteio de Natal 2026
-  </h1>
+export default function Home() {
+  return (
+    <main style={styles.container}>
+      <div style={styles.card}>
 
-  <div style={styles.goldLine}></div>
+        <video autoPlay muted loop playsInline style={styles.cardVideo}>
+          <source src="/fundo.mp4" type="video/mp4" />
+        </video>
 
-  <p style={styles.subtitle}>
-    Concorra a uma Fechadura Digital de Sobrepor com instalação inclusa.
-  </p>
+        <div style={styles.overlay} />
 
-  <a
-    href="https://g.page/r/Cbw41K2JnAevEBM/review"
-    target="_blank"
-    style={styles.button}
-  >
-    ⭐ Avaliar no Google
-  </a>
+        <div style={styles.content}>
 
-  <a
-    href="https://instagram.com/seuinstagram"
-    target="_blank"
-    style={styles.button}
-  >
-    📸 Seguir no Instagram
-  </a>
+          <img
+            src="/logo.png"
+            alt="Tech Fechaduras Digitais"
+            style={styles.logo}
+          />
 
-  <section style={styles.seoSection}>
-    <h2 style={{ color: "#d4af37" }}>
-      Como Participar
-    </h2>
+          <h1 style={styles.companyName}>
+            Tech Fechaduras
+          </h1>
 
-    <p style={styles.description}>
-      1️⃣ Avalie nossa empresa no Google.
-      <br /><br />
-      2️⃣ Siga nossa página no Instagram.
-      <br /><br />
-      3️⃣ Compartilhe nosso cartão digital para pelo menos 3 pessoas ou grupos.
-      <br /><br />
-      4️⃣ Envie os 3 comprovantes pelo WhatsApp.
-    </p>
-  </section>
+          <h2>
+            Instalação de Fechaduras Digitais em São Paulo
+          </h2>
 
-  <section style={styles.seoSection}>
-    <h2 style={{ color: "#d4af37" }}>
-      Sua Recompensa
-    </h2>
+          <p style={styles.slogan}>
+            Instalação e Configuração de Fechaduras Digitais com Garantia e Segurança.
+          </p>
 
-    <p style={styles.description}>
-      🎟️ Receba 10 números para concorrer ao sorteio.
-    </p>
-  </section>
+          <div style={styles.divider} />
 
-  <section style={styles.seoSection}>
-    <h2 style={{ color: "#d4af37" }}>
-      Prêmio
-    </h2>
+          <a
+            href="https://wa.me/5511962209588?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento."
+            target="_blank"
+            rel="noopener noreferrer"
+            style={styles.buttonPrimary}
+          >
+            🛠️ Solicitar Orçamento
+          </a>
 
-    <p style={styles.description}>
-      🔒 Fechadura Digital de Sobrepor
-      <br />
-      ✅ Produto novo
-      <br />
-      ✅ Instalação inclusa
-      <br />
-      ✅ Configuração completa
-    </p>
-  </section>
+          <a
+            href="https://wa.me/5511962209588?text=Olá,%20vi%20o%20sorteio%20da%20Tech%20Fechaduras%20e%20quero%20participar."
+            target="_blank"
+            rel="noopener noreferrer"
+            style={styles.buttonPromo}
+          >
+            🎁 Participar do Sorteio
+          </a>
 
-  <section style={styles.seoSection}>
-    <h2 style={{ color: "#d4af37" }}>
-      Regras
-    </h2>
+          <ShareButton />
 
-    <p style={styles.description}>
-      • Sorteio em dezembro de 2026.
-      <br />
-      • Instalação gratuita na Capital e Grande São Paulo.
-      <br />
-      • Demais cidades: apenas taxa de deslocamento.
-      <br />
-      • O vencedor será divulgado em nossas redes sociais.
-    </p>
-  </section>
+          <a
+            href="https://g.page/r/Cbw41K2JnAevEBM/review"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={styles.buttonSecondary}
+          >
+            ⭐ Avaliar Empresa no Google ⭐
+          </a>
 
-  <a
-    href="https://wa.me/5511SEUNUMERO"
-    target="_blank"
-    style={styles.buttonPrimary}
-  >
-    🎟️ Enviar Comprovantes
-  </a>
+          <section style={styles.seoSection}>
 
-  <div style={styles.footer}>
-    Boa sorte! 🍀
-  </div>
+            <h2 style={{ color: "#d4af37" }}>
+              Instalação de Fechaduras Digitais em São Paulo
+            </h2>
 
-</div>
+          <p style={styles.description}>
+            A Tech Fechaduras é especializada na instalação de fechaduras digitais em residências, apartamentos e empresas em São Paulo. Trabalhamos com Intelbras, Yale, Papaiz e Elsys, com instalação profissional e suporte técnico. Configuração de senhas, biometria, tags e integração com aplicativos. Atendimento em toda São Paulo com rapidez e segurança.
+          </p>
+          
+          </section>
+
+          <div style={styles.footer}>
+            Protegendo o que é importante para você!
+          </div>
+
+        </div>
+      </div>
+    </main>
+  );
+}
+
+const styles: any = {
+  container: { minheight: "100vh", width: "100vw", display: "flex", justifyContent: "center", alignItems: "center", background: "#000", margin: 0 },
+  card: { position: "relative", height: "100%", padding: 20, display: "flex", flexDirection: "column", justifyContent: "center", textAlign: "center", color: "#fff" },
+  cardVideo: { position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0 },
+  overlay: { position: "absolute", inset: 0, background: "rgba(0,0,0,0.78)", zIndex: 1 },
+  content: { position: "relative", zIndex: 2, padding: 20 },
+  logo: { width: 120, height: 120, objectFit: "contain", margin: "0 auto" },
+  companyName: { fontSize: 28, fontWeight: 700, color: "#d4af37" },
+  slogan: { color: "#f5d98b", fontSize: 15 },
+  divider: { width: "80%", height: 1, background: "#d4af37", margin: "20px auto", opacity: 0.5 },
+  description: { color: "#e5e5e5", lineHeight: 1.1 },
+  buttonPrimary: { display: "block", background: "#d4af37", color: "#000", padding: 14, borderRadius: 14, marginBottom: 12, fontWeight: "bold" },
+  buttonPromo: { display: "block", background: "#111", color: "#d4af37", padding: 14, borderRadius: 14, border: "1px solid #d4af37", marginBottom: 12 },
+  buttonSecondary: { display: "block", color: "#d4af37", border: "1px solid #d4af37", padding: 14, borderRadius: 14, marginBottom: 20 },
+  services: { textAlign: "left", marginTop: 20 },
+  seoSection: { marginTop: 30, textAlign: "left", maxWidth: 800 },
+  footer: { color: "#d4af37", marginTop: 25, fontWeight: "bold" }
+};
