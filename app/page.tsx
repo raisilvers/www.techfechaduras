@@ -35,10 +35,6 @@ export default function Home() {
 
           <div style={styles.divider} />
 
-          <p style={styles.description}>
-            Especialistas em fechaduras digitais, controle de acesso e soluções inteligentes para residências e empresas.
-          </p>
-
           <a
             href="https://wa.me/5511962209588?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento."
             target="_blank"
