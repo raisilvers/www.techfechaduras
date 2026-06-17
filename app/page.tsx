@@ -68,14 +68,6 @@ export default function Home() {
             ⭐ Avaliar Empresa no Google ⭐
           </a>
 
-          <div style={styles.services}>
-            <p>✓ Instalação de Fechaduras Digitais</p>
-            <p>✓ Controle de Acesso</p>
-            <p>✓ Configuração e Suporte</p>
-            <p>✓ Atendimento Residencial e Comercial</p>
-            <p>✓ Garantia nos Serviços Executados</p>
-          </div>
-
           <section style={styles.seoSection}>
             <h2 style={{ color: "#d4af37" }}>
               Instalação de Fechaduras Digitais em São Paulo
