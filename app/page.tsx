@@ -40,7 +40,7 @@ export default function Home() {
           <div style={styles.divider} />
 
           <a
-            href="https://wa.me/5511962209588?text=Olá!%20🔒%20Vi%20o%20site%20da%20Tech%20Fechaduras%20e%20gostaria%20de%20receber%20um%20orçamento%20para%20instalação%20de%20fechadura%20digital."
+            href="https://wa.me/5511971204826?text=Olá!%20🔒%20Vi%20o%20site%20da%20Tech%20Fechaduras%20e%20gostaria%20de%20receber%20um%20orçamento%20para%20instalação%20de%20fechadura%20digital."
             target="_blank"
             rel="noopener noreferrer"
             style={styles.buttonPrimary}
