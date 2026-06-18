@@ -38,7 +38,7 @@ export default function ShareButton() {
         marginBottom: "12px",
       }}
     >
-      📤 Compartilhar Cartão
+      📤 Compartilhar
     </button>
   );
 }
