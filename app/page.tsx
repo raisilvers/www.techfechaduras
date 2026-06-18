@@ -40,7 +40,7 @@ export default function Home() {
           <div style={styles.divider} />
 
           <a
-            href="https://wa.me/5511962209588?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento."
+            href="https://wa.me/5511971204826?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento."
             target="_blank"
             rel="noopener noreferrer"
             style={styles.buttonPrimary}
