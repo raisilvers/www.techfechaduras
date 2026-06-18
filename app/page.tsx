@@ -103,6 +103,6 @@ const styles: any = {
   buttonPromo: { display: "block", background: "#111", color: "#d4af37", padding: 14, borderRadius: 14, border: "1px solid #d4af37", marginBottom: 12 },
   buttonSecondary: { display: "block", color: "#d4af37", border: "1px solid #d4af37", padding: 14, borderRadius: 14, marginBottom: 20 },
   services: { textAlign: "left", marginTop: 20 },
-  seoSection: { marginTop: 30, textAlign: "left", maxWidth: 800 },
+  seoSection: { marginTop: 30, textAlign: "center", maxWidth: 800 },
   footer: { color: "#d4af37", marginTop: 25, fontWeight: "bold" }
 };
