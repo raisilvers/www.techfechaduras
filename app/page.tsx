@@ -1,3 +1,4 @@
+import Image from "next/image";
 import ShareButton from "@/components/ShareButton";
 
 export default function Home() {
@@ -14,11 +15,14 @@ export default function Home() {
         <div style={styles.content}>
 
           
-          <img
-            src="/logo.png"
-            alt="Tech Fechaduras Digitais"
-            style={styles.logo}
-          />
+        <Image
+          src="/logo.png"
+          alt="Tech Fechaduras Digitais"
+          width={120}
+          height={120}
+          priority
+          style={styles.logo}
+        />
           
           <h1 style={styles.companyName}>
             Instalação de Fechaduras Digitais em São Paulo | Tech Fechaduras
