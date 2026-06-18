@@ -117,7 +117,7 @@ export default function Sorteio() {
           </div>
 
           <a
-            href="https://wa.me/5511962209588?text=Olá,%20quero%20participar%20do%20sorteio%20de%20Natal%202026."
+            href="https://wa.me/5511971204826?text=Olá,%20quero%20participar%20do%20sorteio%20de%20Natal%202026."
             target="_blank"
             rel="noopener noreferrer"
             style={styles.buttonPrimary}
