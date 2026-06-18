@@ -1,5 +1,3 @@
-"use client";
-
 import ShareButton from "@/components/ShareButton";
 
 export default function Home() {
@@ -25,7 +23,7 @@ export default function Home() {
           <h1 style={styles.companyName}>
             Instalação de Fechaduras Digitais em São Paulo | Tech Fechaduras
           </h1>
-          
+
           <p>
             Instalamos sistemas de controle de acesso, fechaduras biométricas,
             senhas digitais, tags e integração com aplicativos móveis.
