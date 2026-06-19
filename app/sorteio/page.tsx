@@ -54,7 +54,7 @@ export default function Sorteio() {
           </a>
 
           <a
-            href="https://instagram.com/seuinstagram"
+            href="https://instagram.com/techfechaduras"
             target="_blank"
             rel="noopener noreferrer"
             style={styles.buttonSecondary}
