@@ -23,6 +23,10 @@ export default function Home() {
           priority
           style={styles.logo}
         />
+        
+          <div style={styles.trustBadge}>
+            ⭐⭐⭐⭐⭐ Prestador 5 Estrelas • Atendimento Profissional
+          </div>
           
           <h1 style={styles.companyName}>
             Instalação de Fechaduras Digitais em São Paulo | Tech Fechaduras
@@ -87,8 +91,8 @@ const styles: any = {
   cardVideo: { position: "fixed", top: 0, left: 0, width: "100vw", height: "100vh", objectFit: "cover", zIndex: 0 },
   overlay: { position: "absolute", inset: 0, background: "rgba(0,0,0,0.78)", zIndex: 1 },
   content: { position: "relative", zIndex: 2, padding: 20 },
-  logo: { width: 120, height: 120, objectFit: "contain", margin: "0 auto" },
-  companyName: { fontSize: 28, fontWeight: 700, color: "#d4af37" },
+  logo: { width: 140, height: 140, objectFit: "contain", margin: "0 auto 25px", filter: "drop-shadow(0 0 18px rgba(212,175,55,.35))", transition: "all .3s ease" },
+  companyName: { fontSize: "clamp(2rem,4vw,3.2rem)", fontWeight: 800, color: "#d4af37", lineHeight: 1.15, letterSpacing: "-1px", maxWidth: 850, margin: "0 auto 20px", textShadow: "0 0 15px rgba(212,175,55,.20)" },
   slogan: { color: "#f5d98b", fontSize: 15 },
   divider: { width: "80%", height: 1, background: "#d4af37", margin: "20px auto", opacity: 0.5 },
   description: { color: "#e5e5e5", lineHeight: 1.1 },
