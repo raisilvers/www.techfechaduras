@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://techfechaduras.com.br"),
-  title: "Tech Fechaduras | Instalação de Fechaduras Digitais",
+  title: "Instalação de Fechaduras Digitais em São Paulo | Tech Fechaduras",
   description:
     "Instalação de fechaduras digitais Intelbras, Yale, Papaiz e Elsys em São Paulo.",
 
