@@ -59,12 +59,35 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: "Tech Fechaduras",
+    url: "https://techfechaduras.com.br",
+    image: "https://techfechaduras.com.br/logo.png",
+    description:
+      "Especialistas em instalação de fechaduras digitais em São Paulo.",
+    telephone: "+55 11 97120-4826",
+    areaServed: "São Paulo",
+    priceRange: "$$",
+  };
+
   return (
     <html
       lang="pt-BR"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(schema),
+          }}
+        />
+      </body>
     </html>
   );
 }
