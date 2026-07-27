@@ -17,6 +17,18 @@ export const metadata: Metadata = {
   title: "Instalação de Fechaduras Digitais em São Paulo | Tech Fechaduras",
   description:
     "Empresa especializada na instalação de fechaduras digitais Intelbras, Yale, Papaiz e Elsys em São Paulo. Atendimento residencial e comercial, instalação com garantia, suporte técnico e instalação rápida.",
+  
+  keywords: [
+    "fechadura digital",
+    "instalação de fechadura digital",
+    "fechadura biométrica",
+    "Intelbras",
+    "Yale",
+    "Papaiz",
+    "Elsys",
+    "São Paulo",
+    "controle de acesso",
+  ],
 
   openGraph: {
     title: "🔒 Fechaduras Digitais em São Paulo | Tech Fechaduras",
